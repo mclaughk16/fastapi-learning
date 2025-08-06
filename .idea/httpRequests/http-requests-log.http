@@ -1,0 +1,689 @@
+GET http://127.0.0.1:8000/posts/10
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-08-06T115200.200.json
+
+###
+
+POST http://127.0.0.1:8000/users
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 59
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "jim@gmail.com",
+  "password": "password123"
+}
+
+<> 2025-08-06T115153.500.txt
+
+###
+
+POST http://127.0.0.1:8000/posts
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 78
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "title": "this is my new post",
+    "content": "no sql injection here"
+}
+
+<> 2025-08-06T115144.201.json
+
+###
+
+GET http://127.0.0.1:8000/posts/10
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-08-06T112930.200.json
+
+###
+
+POST http://127.0.0.1:8000/posts
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 78
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "title": "this is my new post",
+    "content": "no sql injection here"
+}
+
+<> 2025-08-06T112925.201.json
+
+###
+
+GET http://127.0.0.1:8000/users/1
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-08-06T112919.200.json
+
+###
+
+GET http://127.0.0.1:8000/posts
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-08-06T112909.200.json
+
+###
+
+GET http://127.0.0.1:8000/users/10
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-08-06T111529.404.json
+
+###
+
+GET http://127.0.0.1:8000/users/5
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-08-06T111525.200.json
+
+###
+
+GET http://127.0.0.1:8000/users/1
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-08-06T111516.200.json
+
+###
+
+POST http://127.0.0.1:8000/users
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 59
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "jim@gmail.com",
+  "password": "password123"
+}
+
+<> 2025-08-06T111015.201.json
+
+###
+
+POST http://127.0.0.1:8000/users
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 60
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "abby@gmail.com",
+  "password": "password123"
+}
+
+<> 2025-08-06T110551.201.json
+
+###
+
+POST http://127.0.0.1:8000/users
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 60
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "john@gmail.com",
+  "password": "password123"
+}
+
+<> 2025-08-06T105740.500.txt
+
+###
+
+POST http://127.0.0.1:8000/users
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "johnmail.com",
+  "password": "password123"
+}
+
+<> 2025-08-06T105729.422.json
+
+###
+
+POST http://127.0.0.1:8000/users
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 60
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "john@gmail.com",
+  "password": "password123"
+}
+
+<> 2025-08-06T105715.201.json
+
+###
+
+POST http://127.0.0.1:8000/users
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 60
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "kyle@gmail.com",
+  "password": "password123"
+}
+
+<> 2025-08-06T105555.500.txt
+
+###
+
+POST http://127.0.0.1:8000/users
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 60
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "kyle@gmail.com",
+  "password": "password123"
+}
+
+<> 2025-08-06T105422.201.json
+
+###
+
+GET http://127.0.0.1:8000/posts
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-08-06T100839.200.json
+
+###
+
+GET http://127.0.0.1:8000/posts
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-08-06T100801.500.txt
+
+###
+
+GET http://127.0.0.1:8000/posts
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-08-06T100725.500.txt
+
+###
+
+GET http://127.0.0.1:8000/posts
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-08-06T100559.200.json
+
+###
+
+GET http://127.0.0.1:8000/posts/10
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-08-06T100541.200.json
+
+###
+
+GET http://127.0.0.1:8000/posts/4
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-08-06T100536.404.json
+
+###
+
+GET http://127.0.0.1:8000/posts
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-08-06T100507.500.txt
+
+###
+
+PUT http://127.0.0.1:8000/posts/10
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 66
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "updated title",
+  "content": "this is new content"
+}
+
+<> 2025-08-06T100458.200.json
+
+###
+
+PUT http://127.0.0.1:8000/posts/10
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 66
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "updated title",
+  "content": "this is new content"
+}
+
+<> 2025-08-06T100401.200.json
+
+###
+
+PUT http://127.0.0.1:8000/posts/55
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 66
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "updated title",
+  "content": "this is new content"
+}
+
+<> 2025-08-06T100356.404.json
+
+###
+
+POST http://127.0.0.1:8000/posts
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 78
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "title": "this is my new post",
+    "content": "no sql injection here"
+}
+
+<> 2025-08-06T100214.201.json
+
+###
+
+POST http://127.0.0.1:8000/posts
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 78
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "title": "this is my new post",
+    "content": "no sql injection here"
+}
+
+<> 2025-08-06T100044.201.json
+
+###
+
+POST http://127.0.0.1:8000/posts
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 78
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "title": "this is my new post",
+    "content": "no sql injection here"
+}
+
+<> 2025-08-06T095736.201.json
+
+###
+
+POST http://127.0.0.1:8000/posts
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 78
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "title": "this is my new post",
+    "content": "no sql injection here"
+}
+
+<> 2025-08-06T095732.201.json
+
+###
+
+GET http://127.0.0.1:8000/posts
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-08-06T095527.200.json
+
+###
+
+PUT http://127.0.0.1:8000/posts/55
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 66
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "updated title",
+  "content": "this is new content"
+}
+
+<> 2025-08-05T171256.404.json
+
+###
+
+PUT http://127.0.0.1:8000/posts/5
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 66
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "updated title",
+  "content": "this is new content"
+}
+
+<> 2025-08-05T171143.200.json
+
+###
+
+PUT http://127.0.0.1:8000/posts/5
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 66
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "updated title",
+  "content": "this is new content"
+}
+
+<> 2025-08-05T171116.500.txt
+
+###
+
+POST http://127.0.0.1:8000/posts
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 78
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "title": "this is my new post",
+    "content": "no sql injection here"
+}
+
+<> 2025-08-05T170653.201.json
+
+###
+
+POST http://127.0.0.1:8000/posts
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 78
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "title": "this is my new post",
+    "content": "no sql injection here"
+}
+
+<> 2025-08-05T170652.201.json
+
+###
+
+POST http://127.0.0.1:8000/posts
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 78
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "title": "this is my new post",
+    "content": "no sql injection here"
+}
+
+<> 2025-08-05T170651.201.json
+
+###
+
+POST http://127.0.0.1:8000/posts
+Host: 127.0.0.1:8000
+Content-Type: application/json
+Content-Length: 78
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "title": "this is my new post",
+    "content": "no sql injection here"
+}
+
+<> 2025-08-05T170650.201.json
+
+###
+
+DELETE http://127.0.0.1:8000/posts/3
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+DELETE http://127.0.0.1:8000/posts/4
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-08-05T170630.404.json
+
+###
+
+DELETE http://127.0.0.1:8000/posts/444
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-08-05T170624.404.json
+
+###
+
+DELETE http://127.0.0.1:8000/posts/444
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+DELETE http://127.0.0.1:8000/posts/4
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+DELETE http://127.0.0.1:8000/posts/666
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-08-05T170009.404.json
+
+###
+
+DELETE http://127.0.0.1:8000/posts/3
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+DELETE http://127.0.0.1:8000/posts/3
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+DELETE http://127.0.0.1:8000/posts/3
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+DELETE http://127.0.0.1:8000/posts/3
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+DELETE http://127.0.0.1:8000/posts/3
+Host: 127.0.0.1:8000
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
