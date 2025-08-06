@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "br, deflate, gzip, x-gzip",
+    "Authorization": "Bearer my-secret-token",
+    "Host": "examples.http-client.intellij.net",
+    "User-Agent": "IntelliJ HTTP Client/PyCharm 2025.1.3.1",
+    "X-Forwarded-Host": "examples.http-client.intellij.net",
+    "X-Forwarded-Scheme": "https",
+    "X-Scheme": "https"
+  }
+}
