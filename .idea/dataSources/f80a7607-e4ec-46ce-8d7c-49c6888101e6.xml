@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.53">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <IntrospectionStateNumber>869</IntrospectionStateNumber>
+      <IntrospectionStateNumber>958</IntrospectionStateNumber>
       <ServerVersion>17.5</ServerVersion>
       <StartupTime>1754399831</StartupTime>
       <TimeZones>true ACDT
@@ -801,7 +801,7 @@ false Zulu
 14751||10|C|G
 14751||-9223372036854775808|U|G
 14751||10|U|G</Grants>
-      <IntrospectionStateNumber>869</IntrospectionStateNumber>
+      <IntrospectionStateNumber>958</IntrospectionStateNumber>
       <ObjectId>16387</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -4228,17 +4228,17 @@ false Zulu
     <schema id="265" parent="2" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>869</IntrospectionStateNumber>
-      <LastIntrospectionLocalTimestamp>2025-08-06.14:12:22</LastIntrospectionLocalTimestamp>
+      <IntrospectionStateNumber>958</IntrospectionStateNumber>
+      <LastIntrospectionLocalTimestamp>2025-08-07.14:23:14</LastIntrospectionLocalTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>532</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
     <sequence id="266" parent="265" name="posts_id_seq">
-      <ObjectId>24651</ObjectId>
+      <ObjectId>24695</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
       <StartValue>1</StartValue>
-      <StateNumber>844</StateNumber>
+      <StateNumber>957</StateNumber>
       <StoredType>integer|0s</StoredType>
       <OwnerName>postgres</OwnerName>
     </sequence>
@@ -4257,14 +4257,14 @@ false Zulu
       <OwnerName>postgres</OwnerName>
     </table>
     <table id="269" parent="265" name="posts">
-      <ObjectId>24652</ObjectId>
-      <StateNumber>844</StateNumber>
+      <ObjectId>24696</ObjectId>
+      <StateNumber>957</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
     <table id="270" parent="265" name="users">
       <ObjectId>24663</ObjectId>
-      <StateNumber>868</StateNumber>
+      <StateNumber>918</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
@@ -4296,22 +4296,22 @@ false Zulu
       <DefaultExpression>nextval(&apos;posts_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>844</StateNumber>
+      <StateNumber>957</StateNumber>
       <StoredType>integer|0s</StoredType>
-      <SequenceId>24651</SequenceId>
+      <SequenceId>24695</SequenceId>
       <TypeId>23</TypeId>
     </column>
     <column id="275" parent="269" name="title">
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>844</StateNumber>
+      <StateNumber>957</StateNumber>
       <StoredType>varchar|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="276" parent="269" name="content">
       <NotNull>1</NotNull>
       <Position>3</Position>
-      <StateNumber>844</StateNumber>
+      <StateNumber>957</StateNumber>
       <StoredType>varchar|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
@@ -4319,7 +4319,7 @@ false Zulu
       <DefaultExpression>true</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>4</Position>
-      <StateNumber>844</StateNumber>
+      <StateNumber>957</StateNumber>
       <StoredType>boolean|0s</StoredType>
       <TypeId>16</TypeId>
     </column>
@@ -4327,27 +4327,43 @@ false Zulu
       <DefaultExpression>now()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>5</Position>
-      <StateNumber>844</StateNumber>
+      <StateNumber>957</StateNumber>
       <StoredType>timestamp with time zone|0s</StoredType>
       <TypeId>1184</TypeId>
     </column>
-    <index id="279" parent="269" name="posts_pkey">
+    <column id="279" parent="269" name="owner_id">
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <StateNumber>957</StateNumber>
+      <StoredType>integer|0s</StoredType>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="280" parent="269" name="posts_owner_id_fkey">
+      <ColNames>owner_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>24706</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <StateNumber>957</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>24663</RefTableId>
+    </foreign-key>
+    <index id="281" parent="269" name="posts_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>24660</ObjectId>
+      <ObjectId>24704</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>844</StateNumber>
+      <StateNumber>957</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="280" parent="269" name="posts_pkey">
+    <key id="282" parent="269" name="posts_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>24661</ObjectId>
+      <ObjectId>24705</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>844</StateNumber>
-      <UnderlyingIndexId>24660</UnderlyingIndexId>
+      <StateNumber>957</StateNumber>
+      <UnderlyingIndexId>24704</UnderlyingIndexId>
     </key>
-    <column id="281" parent="270" name="id">
+    <column id="283" parent="270" name="id">
       <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -4356,21 +4372,21 @@ false Zulu
       <SequenceId>24662</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="282" parent="270" name="email">
+    <column id="284" parent="270" name="email">
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>868</StateNumber>
       <StoredType>varchar|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="283" parent="270" name="password">
+    <column id="285" parent="270" name="password">
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StateNumber>868</StateNumber>
       <StoredType>varchar|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="284" parent="270" name="created_at">
+    <column id="286" parent="270" name="created_at">
       <DefaultExpression>now()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>4</Position>
@@ -4378,7 +4394,7 @@ false Zulu
       <StoredType>timestamp with time zone|0s</StoredType>
       <TypeId>1184</TypeId>
     </column>
-    <index id="285" parent="270" name="users_pkey">
+    <index id="287" parent="270" name="users_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>24670</ObjectId>
@@ -4387,7 +4403,7 @@ false Zulu
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <index id="286" parent="270" name="users_email_key">
+    <index id="288" parent="270" name="users_email_key">
       <ColNames>email</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>24672</ObjectId>
@@ -4398,14 +4414,14 @@ false Zulu
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <key id="287" parent="270" name="users_pkey">
+    <key id="289" parent="270" name="users_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>24671</ObjectId>
       <Primary>1</Primary>
       <StateNumber>868</StateNumber>
       <UnderlyingIndexId>24670</UnderlyingIndexId>
     </key>
-    <key id="288" parent="270" name="users_email_key">
+    <key id="290" parent="270" name="users_email_key">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>24673</ObjectId>
       <StateNumber>868</StateNumber>

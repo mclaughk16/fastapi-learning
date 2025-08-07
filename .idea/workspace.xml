@@ -5,56 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="689f1bfd-d69f-4eaf-b8fc-7bc22c693ae0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/oauth2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routers/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-05T170009.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-05T170624.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-05T170630.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-05T170650.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-05T170651.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-05T170652.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-05T170653.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-05T171116.500.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-05T171143.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-05T171256.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T095527.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T095732.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T095736.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T100044.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T100214.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T100356.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T100401.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T100458.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T100507.500.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T100536.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T100541.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T100559.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T100725.500.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T100801.500.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T100839.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T105422.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T105555.500.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T105715.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T105729.422.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T105740.500.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T110551.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T111015.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T111516.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T111525.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T111529.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T112909.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T112919.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T112925.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T112930.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T115144.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T115153.500.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T115200.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f80a7607-e4ec-46ce-8d7c-49c6888101e6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f80a7607-e4ec-46ce-8d7c-49c6888101e6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f80a7607-e4ec-46ce-8d7c-49c6888101e6/storage_v2/_src_/database/fastapi.PnTMvw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f80a7607-e4ec-46ce-8d7c-49c6888101e6/storage_v2/_src_/database/fastapi.PnTMvw/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T153835.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T153843.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T154347.500.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T154452.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T154707.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T155959.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T160657.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T160701.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T160724.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T162243.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T162441.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T163442.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T163703.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T163948.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T164035.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T164130.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T164132.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T164157.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T164201.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T164210.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T164227.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T164302.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T164438.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T164539.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T164607.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T170349.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T170358.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T170432.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T170436.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T170445.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T170735.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T171117.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T171141.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T171143.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T171335.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T171356.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T171431.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T171454.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T171613.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T171637.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T171650.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T171707.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T171710.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T172136.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T172357.500.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T172403.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T172406.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T172459.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T172501.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-08-06T172606.200.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/oauth2.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/oauth2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/auth.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routers/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/post.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +117,7 @@
     "HTTP Request.requests-with-authorization | Authorization by token, part 2. Use token to authorize. (1).executor": "Run",
     "HTTP Request.requests-with-authorization | Authorization by token, part 2. Use token to authorize..executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.oauth2.executor": "Debug",
     "Python.scratch.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
@@ -125,11 +135,12 @@
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
+      "hive",
       "postgresql"
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="HTTP Request.generated-requests | #3">
+  <component name="RunManager" selected="HTTP Request.generated-requests | #2">
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -139,7 +150,7 @@
     <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#3" index="3" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="requests-with-authorization | Authorization by token, part 1. Retrieve and save token. (1)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-authorization.http" executionIdentifier="Authorization by token, part 1. Retrieve and save token." index="5" runType="Run single request">
+    <configuration name="generated-requests | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#5" index="5" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="requests-with-authorization | Authorization by token, part 2. Use token to authorize. (1)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-authorization.http" executionIdentifier="Authorization by token, part 2. Use token to authorize." index="6" runType="Run single request">
@@ -147,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests | #3" />
-        <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="HTTP Request.generated-requests | #2" />
+        <item itemvalue="HTTP Request.generated-requests | #5" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+        <item itemvalue="HTTP Request.generated-requests | #3" />
         <item itemvalue="HTTP Request.requests-with-authorization | Authorization by token, part 2. Use token to authorize. (1)" />
-        <item itemvalue="HTTP Request.requests-with-authorization | Authorization by token, part 1. Retrieve and save token. (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +190,8 @@
       <workItem from="1754400359668" duration="911000" />
       <workItem from="1754401417899" duration="157000" />
       <workItem from="1754401722530" duration="26265000" />
-      <workItem from="1754485717011" duration="23039000" />
+      <workItem from="1754485717011" duration="23338000" />
+      <workItem from="1754569434846" duration="11365000" />
     </task>
     <servers />
   </component>
@@ -204,5 +216,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fastapi$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1754405081741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/fastapi$oauth2.coverage" NAME="oauth2 Coverage Results" MODIFIED="1754515549329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
 </project>
