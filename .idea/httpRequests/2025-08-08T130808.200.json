@@ -1,0 +1,24 @@
+[
+  {
+    "Post": {
+      "content": "no sql injection here",
+      "published": true,
+      "created_at": "2025-08-08T12:17:53.822186-04:00",
+      "id": 2,
+      "title": "this is my new post",
+      "owner_id": 2
+    },
+    "votes": 3
+  },
+  {
+    "Post": {
+      "content": "no sql injection here",
+      "published": true,
+      "created_at": "2025-08-08T12:17:15.531948-04:00",
+      "id": 1,
+      "title": "this is my new post",
+      "owner_id": 1
+    },
+    "votes": 2
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "Post": {
+      "created_at": "2025-08-08T12:17:53.822186-04:00",
+      "published": true,
+      "content": "no sql injection here",
+      "title": "this is my new post",
+      "id": 2,
+      "owner_id": 2
+    },
+    "votes": 3
+  }
+]
