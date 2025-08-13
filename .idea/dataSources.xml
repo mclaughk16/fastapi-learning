@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/fastapi</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="postgres@ec2-54-173-208-36.compute-1.amazonaws.com" uuid="1d7fde91-968c-4246-8fc1-a8db20157d30">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-54-173-208-36.compute-1.amazonaws.com:5432/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
