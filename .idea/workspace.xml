@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="689f1bfd-d69f-4eaf-b8fc-7bc22c693ae0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/oauth2.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/oauth2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +66,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "working-branch",
     "last_opened_file_path": "C:/Users/kmclaughlin/Documents/dev/fastapi",
     "node.js.detected.package.eslint": "true",
@@ -163,7 +161,7 @@
       <workItem from="1754599266092" duration="20721000" />
       <workItem from="1754936706134" duration="823000" />
       <workItem from="1754948271929" duration="5785000" />
-      <workItem from="1755121167736" duration="809000" />
+      <workItem from="1755121167736" duration="2596000" />
     </task>
     <servers />
   </component>
