@@ -16,7 +16,7 @@ url_object = URL.create(
 )
 
 #create engine
-engine = create_engine(url_object, echo = True)
+engine = create_engine(url_object, echo = False)
 
 # create db and tables
 def create_db_and_tables():

@@ -13,8 +13,6 @@ class UserBase(SQLModel):
 
 class UserCreate(UserBase):
     password: str = Field(nullable=False)
-    phone_number: str = Field(nullable=False)
-    birthday: str = Field(nullable=False)
 
 class User(UserCreate, table=True):
     id: int | None = Field(default=None, primary_key=True, nullable=False)
@@ -51,6 +49,12 @@ class Vote(SQLModel, table=True):
     user_id: int = Field(foreign_key='user.id', ondelete = "CASCADE", primary_key=True)
     post_id: int = Field(foreign_key='post.id', ondelete = "CASCADE", primary_key=True)
 
+class Token(SQLModel):
+    access_token: str
+    token_type: str
+
+class TokenData(SQLModel):
+    id: str
 
 
 #Standard SQLAlchemy models
