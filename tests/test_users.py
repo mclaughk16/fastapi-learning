@@ -35,8 +35,8 @@ def test_login_user(client: TestClient, test_user):
     ("wrongemail@gmail.com", "password", 403),
     ("jim@gmail.com", "wrongPassword", 403),
     ("wrongemail@gmail.com", "wrongPassword", 403),
-    (None, "password", 422),
-    ("jim@gmail.com", None, 422)
+    (None, "password", 403),
+    ("jim@gmail.com", None, 403)
 
 ])
 def test_incorrect_login(client: TestClient, test_user, email, password, status_code):
