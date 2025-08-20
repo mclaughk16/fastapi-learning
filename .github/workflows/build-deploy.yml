@@ -71,7 +71,15 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: [build]
-
+    environment:
+      name: production
     steps:
-      - name: deploying
-        run: echo "command test"
+      - name: pulling git repo
+        uses: actions/checkout@v4
+      - name: deploy to ec2
+        uses: easingthemes/ssh-deploy@main
+        with:
+          SSH_PRIVATE_KEY: ${{secrets.EC2_KEY}}
+          SOURCE: "./"
+          REMOTE_HOST: ${{secrets.REMOTE_HOST}}
+          REMOTE_USER: "ubuntu"
